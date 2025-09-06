@@ -8,3 +8,5 @@ public class Child extends Parent  {
 		System.out.println("I am from default child class " + gender + " " + job);
 	}
 }
+
+// 25/08/2025
