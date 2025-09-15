@@ -3,11 +3,11 @@ package com.methods;
 public class Access_Modifiers {
 
 	public static void main(String[] args) {
-	 display();
+	display(); // calling the methodname directly
 	 
-	 //Example myObj = new Example();
-	 //myObj.show();
-       Example.show(); // class name .methodname
+         // Example myObj = new Example();
+	 // myObj.show();
+       Example.show(); // class name .methodname (calling by using classname), because example class is present in another class
 	}
 
 	
